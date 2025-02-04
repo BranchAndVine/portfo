@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Stewards and Snarls: The Realm's Forum
+        </title>
+        <link rel="stylesheet" type="text/css" href="static/style2.css">
+        <link rel="shortcut icon" href="{{ url_for('static', filename='one_fortress.ico') }}"> <!--for little icon at the top--> <!--When Flask sees the two curly brackets here, it notes that this is a Python expression that it actually needs to evaluate. It comes with Jinja, a templating language, to do this. Basically translates Python.-->
+    </head>
+    
+<body>
+<!--Home-->
+    {{ name }}
+    {{ post_id }}
+<script src="static/script2.js"></script>
+</body>
+</html>
+
+<!--url_for is like a safer way (non-hard-coding way) of building URLs-->
+<!--for just sending data from a server to a browser use JSON-->
+
+
+
